@@ -1,0 +1,655 @@
+body{margin: 0;}
+
+#btini, #refs{
+	display: inline-block;
+}
+
+#header{	
+	padding-top: 15%;
+	padding-bottom: 100%;
+	background: white;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);    
+}
+#superior{	
+	list-style: none;
+	width: 20%;
+	position: fixed;
+}
+
+#refs a{	
+    margin-top: 10px;
+    font-size: 18px;    
+    padding: 10px; 
+    color: #343a40;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#lin{	
+	margin-top: 40%;    
+    margin-left: 10%;
+    text-align: justify;
+}
+
+#refs li{
+	padding: 6%;
+}
+
+#brra{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#brra img{
+	width: 100%;
+}
+
+#brrabajo{	
+    margin-top: 50%;
+    margin-left: 15%;
+    text-align: justify;
+}
+
+/*-------------------------desplazo a derecha y acomodar contenido------------*/
+#aderecha{
+	float: right;
+    width: 80%;
+}
+
+.contener{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*-------------------------contenido arriba----------------------------------*/
+
+#inic{
+	background: white;	
+	padding-top: 9%;
+    padding-bottom: 4%;
+	text-align: center;
+	background-image: url(img/onepicefond.jpg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+
+}
+#soci{
+	background-color: #ffffffcf;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+    padding: 4% 4% 20% 4%;
+    text-align: justify;
+    font-family: Karla,sans-serif;
+}
+
+#perfini{
+    display: block;
+}
+
+#perfini img{
+    max-width: 40%;
+    height: auto;
+    float: left;
+    margin-inline-end: 5%;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+}
+
+.infoper {
+    list-style: none;
+}
+
+.infoper span{
+    font-weight: 600;
+    width: 23%;
+    display: inline-block;    
+}
+
+.infoli{
+   margin-top: 1%;
+}
+
+#encabezado{
+    border-bottom: solid;
+    display: grid;
+    padding-bottom: 2%;
+    border-bottom-width: 1px;
+    border-bottom-color: #3f71b5;
+}
+#encabezado h1{
+    margin: 0px;
+    padding-bottom: 2%;
+}
+
+#encabezado p{
+    margin: 0;
+}
+
+.brles{	
+	margin-left: 33px;
+}
+
+.tesbot{
+    border: solid;
+    padding: 10px 35px;
+    float: left;
+    color: black;
+    margin: 0;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+}
+
+/*-------------------------barra roja--------------------------------------*/
+
+#btini{
+    width: 100%;
+    background-color: #820303;
+    padding: 2.5% 0;
+}
+
+#btini li{
+    margin-left: 3%;
+}
+
+#btini li{  
+    list-style:none; 
+    display: inline-block;
+}
+#btini img{
+    width: 50%;
+}
+
+/*------------------------hacerca de mi-----------------------------------*/
+
+#asoy{
+	background-color: white;
+    padding: 5% 0 10%;
+    color: #343a40;
+}
+
+#imsoy img{
+	max-width: 15%;
+}
+#imsoy, #qsoy{
+    text-align: center;
+}
+
+#tsoy p{
+	font-size: 111%;
+    padding: 2%;
+}
+#txsoy{
+    display: inline-block;
+}
+#tsoy{
+    display: table-cell;
+    width: 49%
+}
+
+#asoy span, .expe span{
+    border-bottom: solid #3F51B5;
+    padding-inline-start: 30px;
+    border-bottom-width: thick;
+}
+#asoy h2{
+    margin: 1%;
+}
+#imsoy a{
+    border: solid;
+    padding: 10px 35px;
+    
+    color: black;
+    margin: 0;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+}
+
+/*-------------------------Años de experiencia-------------------------------------*/
+
+.barramedia {
+    background-color: #dee2e6;
+    left: 60%;
+    width: .25rem;
+    padding: 24% 0;
+    position: absolute;
+}
+
+
+#queser{
+	padding: 3% 12%;
+    background-color: white;
+}
+
+.expe{
+    text-align: center;
+    margin-bottom: 4%;   
+}
+
+.expe p{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.expe h3{
+    font-size: 35px;
+    margin: 0;
+}
+
+
+/*-------------------------linea-------------------------------------*/
+
+.ca {
+    border: solid;
+    margin: 0 34%;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+}
+#ca1 {
+    margin-top: 6%;
+}
+.ca h4{
+    font-size: 15px;
+    padding: 0 10%;
+    line-height: 0.7cm;
+    position: relative;
+    text-align: center;
+}
+.ca span {
+    border: solid;
+    border-color: #3d478000 #3F51B5 #3F51B5 transparent;
+    border-width: 9px 10px;
+    position: absolute;
+    right: 0%;
+    top: 103.5%;
+}
+
+.cizq {
+    border: solid;
+    border-width: 1px;
+    width: 34%;
+    padding: 2%;
+    border-color: #ced4da;
+    position: relative;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+    display: inline-block;
+}
+
+.cizq h4, .cder h4{
+    margin: 2% 0;
+}
+
+.cizq p, .cder p{
+    padding: 4%;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.trianguizq{
+    border: solid;
+    border-color: transparent #820703 #820703 transparent;
+    border-width: 9px 10px;
+    position: absolute;
+    right: 0.3%;
+    top: 86%;
+}
+
+.puntfina{
+    border-bottom: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    height: 0.875rem;
+    position: absolute;
+    left: 98.3%;
+    background: white;
+    width: .875rem;
+    top: 2.25rem;
+    transform: rotate(-45deg);
+}
+
+.puntfinad{
+    border-bottom: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    height: 0.875rem;
+    position: absolute;
+    left: -2.4%;
+    background: white;
+    width: .875rem;
+    top: 2.25rem;
+    transform: rotate(132deg);
+}
+
+.cder {
+    border: solid;
+    border-width: 1px;
+    width: 34%;
+    padding: 2%;
+    border-color: #ced4da;
+    left: 62%;
+    position: relative;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+    display: inline-block;
+}
+
+#dereizq{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+#derefe{
+    display: inline-block;
+}
+
+#dereizq p{    
+    padding: 10% 15px;
+    color: white;
+    top: -58px;
+    position: relative;
+    background-color: #820703;
+}
+
+#derefe p{    
+    padding: 10% 15px;
+    color: white;
+    top: -58px;
+    left: -60%;
+    position: relative;
+    background-color: #820703
+}
+
+/*-------------------------Barra hori----------------------------------*/
+
+.barrahori{
+    background-color: #dee2e6;
+    width: 4%;
+    padding: 3px 30%;
+    position: absolute;
+}
+
+.flechad{
+    border-bottom: 1px solid #3f50b5;
+    border-right: 1px solid #3f50b5;
+    height: 0.875rem;
+    position: absolute;
+    left: .01%;
+    border-width: 4px;
+    background: #ffffff00;
+    width: 0.875rem;
+    top: -7px;
+    transform: rotate(132deg);
+}
+
+.flechai{
+    border-bottom: 1px solid #3f50b5;
+    border-right: 1px solid #3f50b5;
+    height: 0.875rem;
+    position: absolute;
+    left: 98%;
+    border-width: 4px;
+    background: #ffffff00;
+    width: 0.875rem;
+    top: -6px;
+    transform: rotate(-50deg);
+}
+
+
+/*--------------------------cuadro texto----------------------------------*/
+
+#Evalua, #eski{
+    margin: 10% 0;
+}
+
+.bizq {
+    border: solid;
+    border-width: 1px;
+    width: 25%;
+    top: -8px;
+    left: 2.5%;
+    padding: 2.5%;
+    border-color: #ced4da;
+    position: relative;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+}
+
+.bizq h4, .bder h4,.bizqb h4, .bderb h4{
+    margin: 2% 0;
+}
+
+#asoy span, .expe span{
+    border-bottom: solid #3F51B5;
+    padding-inline-start: 30px;
+    border-bottom-width: thick;
+}
+
+.tebaral{
+    background-color: #f8f9fa;
+    margin: 0;
+    font-size: 12px;
+}
+
+.trianguizq{
+    border: solid;
+    border-color: transparent #047b7b #047b7b transparent;
+    border-width: 9px 10px;
+    position: absolute;
+    right: 0.3%;
+    top: 85%;
+}
+
+.puntbaja{
+    border-bottom: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    height: 0.875rem;
+    position: absolute;
+    left: 45.3%;
+    background: white;
+    width: .875rem;
+    top: 94%;
+    transform: rotate(45deg);
+}
+
+.puntbajab{
+    border-bottom: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    height: 0.875rem;
+    position: absolute;
+    left: 43.5%;
+    background: white;
+    width: .875rem;
+    bottom: 94%;
+    transform: rotate(225deg);
+
+}
+
+.bder{
+    border: solid;
+    border-width: 1px;
+    width: 25%;
+    top: 25px;
+    left: 34%;
+    padding: 2.5%;
+    border-color: #ced4da;
+    position: relative;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+}
+
+#bajaribab{
+    display: inline-block;
+    margin: -3% 12% 0;
+    right: -30%;
+    bottom: 115px;
+    position: relative;
+}
+
+#bajariba{
+    display: inline-block;
+    margin: -3% 12% 0;
+}
+
+#bajaribab p{    
+    padding: 10% 15px;
+    color: white;
+    top: 70px;
+    width: 73%;
+    margin: 3%;
+    position: relative;
+    background-color: #820703;
+}
+
+#bajariba p {
+    padding: 10% 15px;
+    color: white;
+    top: 70px;
+    width: 73%;
+    margin: 3%;
+    position: relative;
+    background-color: #820703;
+}
+
+.bizqb{
+    border: solid;
+    border-width: 1px;
+    width: 25%;
+    bottom: 299.5px;
+    left: 66.5%;
+    padding: 2.5%;
+    border-color: #ced4da;
+    position: relative;
+    box-shadow: 0 0.1875rem 1rem rgb(34 34 34 / 39%);
+}
+#bajaribad p {
+    padding: 1% 12px;
+    color: white;
+    bottom: 247px;
+    width: 8%;
+    left: 75.5%;
+    margin: 1% 0;
+    position: relative;
+    background-color: #820703;
+}
+
+/*-------------------------------------------------------------------*/
+
+.barrahorib{
+    background-color: #dee2e6;
+    width: 16%;
+    padding: 3px 6%;
+    position: absolute;
+}
+.barrahorib70{
+    background-color: blue;
+    left: 67%;
+    top: 1px;
+    padding: 2px 33% 3px 0;
+    position: absolute;
+}
+.barrahorib80{
+    background-color: blue;
+    left: 70%;
+    top: 1px;
+    padding: 2px 30% 3px 0;
+    position: absolute;
+}
+.barrahorib60{
+    background-color: blue;
+    left: 60%;
+    top: 1px;
+    padding: 2px 40% 3px 0;
+    position: absolute;
+}
+/*--------------------barra gris y azul---------------------------------*/
+
+.contelcon{
+    display: inline-block;
+    width: 12cm;
+}
+.contelcon2{
+    width: 12cm;
+    float: right;
+}
+
+.tlinea span{
+    border-bottom: solid #3F51B5;
+    padding-inline-start: 30px;
+    border-bottom-width: thick;
+}
+
+.tlinea h4{
+    font-size: 20px;
+    margin: -10px 0;
+}
+
+.media{
+    font-weight: 700;
+    margin: 4% 0 1.5%
+}
+
+.of70{    
+    position: absolute;
+    right: 30%;
+    background: #E91E63;
+    padding: 1% 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 8%;
+    top: -12.5px;
+}
+
+.of80{    
+    position: absolute;
+    right: 20%;
+    background: #E91E63;
+    padding: 1% 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 8%;
+    top: -12.5px;
+}
+
+.of60{    
+    position: absolute;
+    right: 40%;
+    background: #E91E63;
+    padding: 1% 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 8%;
+    top: -12.5px;
+}
+
+/*-------------------------------------------------------------------*/
+
+#circulo{
+    border-radius: 50%;
+    height: 10.625rem;
+    margin: 0 auto;
+    background-color: red;
+    width: 10.625rem;
+}
+
+.cirofer{
+    text-align: center;
+    border-radius: 50%;
+    font-size: .875rem;
+    height: 4.375rem;
+    top: 26%;
+    left: 1%;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    background-color: black;
+    line-height: 4.375rem;
+    margin-left: 28%;
+    width: 4.375rem;
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
